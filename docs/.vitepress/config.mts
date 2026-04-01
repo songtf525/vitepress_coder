@@ -186,10 +186,11 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '基础工具',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Git使用指南', link: '/BasicLanguage/git-guide' },
+          { text: 'uv使用指南', link: '/BasicLanguage/uv-guide' },
+          { text: 'vscode堡垒机', link: '/BasicLanguage/vscode-remote' }
         ]
       }
     ],
